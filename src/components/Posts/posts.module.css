@@ -1,0 +1,11 @@
+.list {
+  font-size: 18px;
+}
+
+.item {
+  font-weight: 400;
+}
+
+.error {
+  color: red;
+}
