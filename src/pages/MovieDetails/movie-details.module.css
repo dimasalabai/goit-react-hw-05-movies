@@ -1,0 +1,46 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  color: #e0e0e0;
+}
+
+.mainInfo {
+  margin-top: 30px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  background-color: #424769;
+  padding: 15px 20px 15px 20px;
+  border-radius: 5px;
+}
+.title {
+  color: #f6b17a;
+}
+
+.movieImg {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.text {
+  max-width: 500px;
+}
+
+.genresList {
+  padding: 0;
+  list-style: none;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #e0e0e0;
+}
+
+.link:global(.active) {
+  color: #f6b17a;
+}

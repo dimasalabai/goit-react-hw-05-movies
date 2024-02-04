@@ -1,0 +1,37 @@
+.list {
+  list-style: none;
+}
+
+.item {
+  padding: 15px 30px 15px 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: #424769;
+  border-radius: 10px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.author {
+  color: #e0e0e0;
+  font-size: 28px;
+}
+
+.content {
+  font-size: 20px;
+}
+
+.reviewDetails p {
+  margin: 0;
+}
+
+.reviewDetails span {
+  color: #f6b17a;
+}
+
+.author {
+  margin: 0px 0px 20px 0;
+}
